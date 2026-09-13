@@ -1,0 +1,5 @@
+---
+- name: Create file using custom module from collection
+  warret.custom_tools.create_file:
+    path: "{{ file_path }}"
+    content: "{{ file_content }}"
